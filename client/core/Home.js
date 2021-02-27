@@ -42,6 +42,7 @@ export default function Home(){
                 Home Page
             </Typography>
             <Link to="/users"> Users </Link>
+            <Link to="/signup"> Signup </Link>
             <CardMedia className={classes.media} image={myImg} title="My Image"/>
             <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo: Cat</Typography>
             <CardContent>
